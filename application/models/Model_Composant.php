@@ -1,7 +1,7 @@
 <?php
 class Model_Composant extends CI_Model{
     public function getAllComposants(){
-        $sql=$this->db->query("SELECT * FROM `composant` ");
+        $sql=$this->db->query("SELECT * FROM composant ");
         return $sql->result();
     }
     public function insertComposants($data) { 

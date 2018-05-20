@@ -1,9 +1,9 @@
-<table class='table'>
+<table>
                 <tr>
-                    <th class="thLC">
+                    <th>
                         Libelle du composant 
                     </th>
-                    <th class="thLC">
+                    <th>
                         CST Quantité 
                     </th>
                 </tr>
@@ -11,10 +11,10 @@
        foreach ($lesComposantDeMedicaments as $comps){
         ?>  
                  <tr>
-                    <td class="cLC">
+                    <td>
                          <?php echo $comps->CMP_LIBELLE; ?>
                     </td>
-                    <td class="cLC">
+                    <td>
                          <?php echo $comps->CST_QTE; ?>
                     </td>
                 </tr>      
